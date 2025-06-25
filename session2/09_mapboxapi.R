@@ -4,7 +4,7 @@ library(tidyverse)
 library(leaflet)
 
 # copy/paste your mapbox access token below
-mb_access_token("pk.ey......", install = TRUE)
+mb_access_token("your_token", install = TRUE)
 
 # mb_isochrone
 walk_5min <- mb_isochrone("Schlossplatz 1, Berlin",
